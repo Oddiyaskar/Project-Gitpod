@@ -1,0 +1,141 @@
+.hero {
+    margin-top: 32px;
+
+    .container {
+        display: flex;
+        align-items: center;
+    }
+
+    &__info {
+        margin-left: 30px;
+    }
+
+    &__heading {
+        margin: 0;
+        padding: 0;
+        font-family: 'Roboto';
+        font-size: 80px;
+        font-weight: 700;
+        line-height: 88px;
+        color: #12100C;
+    }
+
+    &__text {
+        margin: 0;
+        padding: 0;
+        margin-top: 31px;
+        width: 460px;
+        font-family: 'Roboto';
+        font-size: 23px;
+        font-weight: 400;
+        line-height: 32px;
+        color: #12100CB2;
+    }
+
+    &__div {
+        display: flex;
+        margin-top: 48px;
+        align-items: center;
+    }
+
+    &__btn {
+        border: none;
+        font-family: 'Roboto';
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 23px;
+        color: #12100C;
+        background-color: #FFAE33;
+        padding: 12px 46px;
+        border-radius: 16px;
+        margin-bottom: 18px;
+    }
+
+    &__textt {
+        margin: 0;
+        padding: 0;
+        margin-left: 24px;
+        margin-top: -15px;
+        font-family: 'Roboto';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        color: #12100CB2;
+    }
+
+    &__img {
+        margin-left: 100px;
+    }
+}
+
+@media only screen and (max-width: 1240px) {
+    .hero__info {
+        margin-left: 0px;
+    }
+
+    .hero__img {
+        margin-left: 10px;
+        width: 530px;
+        height: 552px;
+        background-size: contain;
+    }
+
+    .hero__heading {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .hero__text {
+        font-size: 18px;
+        width: 370px;
+    }
+
+    .hero__textt {
+        margin-left: 10px;
+    }
+
+    .hero__btn {
+        padding: 10px 40px;
+    }
+}
+
+@media only screen and (max-width: 930px) {
+    .hero .container {
+        flex-direction: column;
+    }
+
+    .hero__img {
+        margin-top: 20px;
+        width: 430px;
+        height: 452px;
+        background-size: contain;
+    }
+}
+
+@media only screen and (max-width: 470px) {
+    .hero__img {
+        width: 220px;
+        height: 220px;
+        background-size: contain;
+    }
+
+    .hero__heading {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .hero__text {
+        font-size: 12px;
+        width: 231px;
+        line-height: 20px;
+    }
+
+    .hero__textt {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .hero__div {
+        flex-direction: column;
+    }
+}
